@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+section {
+  width: 40%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
+  height: 700px;
+}
+
+.title {
+  position: relative;
+  bottom: 5px;
+}
+
+.title h2 {
+  color: #222;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.title .under-line {
+  position: absolute;
+  left: 220px;
+  top: 45px;
+  width: 120px;
+  height: 5px;
+  background-color: #00aced;
+}
+
+.reviews .imgs-box img {
+  width: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 5px 5px 10px black;
+}
+
+.reviews h4 {
+  color: #222;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.reviews span {
+  color: #00aced;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.reviews p {
+  color: #2b2b2b;
+  line-height: 30px;
+}
+
+.btns .prev-btn {
+  color: #00aced;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btns .next-btn {
+  color: #00aced;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.randam-btn {
+  color: #00aced;
+  border: 2px solid #00aced;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
